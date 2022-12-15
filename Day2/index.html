@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="projTitle">Weather testing...</h1>
+    <!-- <div class="wrapper">
+        <div class="gradient-border">
+            <div class="box">
+                <label>Detail address:</label>
+                <textarea name="detailAddress" id="detailAddress" cols="25" rows="5"></textarea>
+            
+                <label>Provinces/Cities: </label>
+                <input list="pList" name="city">
+                <datalist id="pList">
+                </datalist>
+                <label>District: </label>
+                <input list="districtList" name="districtList">
+                <datalist id="districtList">
+                    <option value=""></option>
+                </datalist>
+            
+                <label>Ward: </label>
+                <input list="wardList" name="wardList">
+                <datalist id="wardList">
+                </datalist>
+                <button class="button-85" onclick="getData()" role="button">Submit</button>
+            </div>
+        </div>
+        <div class="address">
+            <span>Địa chỉ:</span>
+            <span id="detailAddress-res"></span>
+            <span id="address"></span>
+            <span id="district"></span>
+            <span id="ward"></span>
+        </div>
+    </div> -->
+
+ 
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="screen">
+                <div class="inner">
+                    <span id="place"></span>
+                    <span id="temperature"></span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+    <script src="weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
